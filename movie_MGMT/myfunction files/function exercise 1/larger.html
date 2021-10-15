@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Console demo</title>
+    <script>
+    function findLargerFraction(a,b) {
+    var result;
+    a>b ? result = ["firstFraction", a] : result = ["secondFraction", b];
+    return result;
+}
+var firstFraction = 3/4;
+var secondFraction = 5/7;
+var fractionResult = findLargerFraction(firstFraction,secondFraction);
+
+console.log("First fraction result: ", firstFraction);
+console.log("Second fraction result: ", secondFraction);
+console.log("Fraction " + fractionResult[0] + " with a value of " + fractionResult[1] + " is larger!");
+    </script>
+  </head>
+  <body><h2>Larger fraction</h2>></body>
+</html>
