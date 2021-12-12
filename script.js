@@ -1,4 +1,4 @@
-let allMovies = [];
+et allMovies = [];
 
 //Define a movie class with parameters title (string), rating (number) and haveWatched (boolean)
 class Movie {
